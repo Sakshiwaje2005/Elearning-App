@@ -7,5 +7,5 @@
 *Mentor*:Neela Santosh
 
 *Output:
-
+![Image](https://github.com/user-attachments/assets/cbd3199f-9489-4a47-89c9-f02b716f4391)
 
