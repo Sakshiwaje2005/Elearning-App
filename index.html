@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>E-Learning Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>EduLearn</h2>
+    <a href="index.html" class="active">Dashboard</a>
+    <a href="course.html">My Course</a>
+    <a href="profile.html">Profile</a>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+
+    <div class="header">
+      <h1>📚 Available Courses</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Search courses...">
+      </div>
+    </div>
+
+    <div class="course-grid">
+
+      <!-- Course 1 -->
+      <div class="course-card">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript</p>
+
+        <div class="progress-bar">
+          <div class="progress-fill" data-progress="60"></div>
+        </div>
+
+        <p>Progress: 60%</p>
+        <a href="course.html">
+          <button>Continue</button>
+        </a>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="course-card">
+        <h3>React Basics</h3>
+        <p>Build modern UI apps</p>
+
+        <div class="progress-bar">
+          <div class="progress-fill" data-progress="30"></div>
+        </div>
+
+        <p>Progress: 30%</p>
+        <a href="course.html">
+          <button>Continue</button>
+        </a>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="course-card">
+        <h3>Python for Beginners</h3>
+        <p>Start programming with Python</p>
+
+        <div class="progress-bar">
+          <div class="progress-fill" data-progress="80"></div>
+        </div>
+
+        <p>Progress: 80%</p>
+        <a href="course.html">
+          <button>Continue</button>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
